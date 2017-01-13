@@ -18,5 +18,3 @@ Steps for usage in class:
 7. **Delete the rest of this file** - Only the first two lines of content should remain.
 8. **Commit and Push the updated repo to GitHub** - You can do this through the GitHub Desktop app. Please name the commit: `Initial Fork, Clone and Edit`. You should also include a description, but it can be whatever you'd like.
 9. **Add me as a collaborator to your remote version of the repo** - This can be done through the GitHub web interface by going to the Settings => Collaborators page and searching for my user name: `ralgeoMCAD`
-
-# Once all of that is completed, move on to Part Two of your Week One assignment
