@@ -1,1 +1,23 @@
-/* YOUR CSS GOES HERE */
+/* 1. The font color used is not black. It's #111.
+2. The link color in the first paragraph is not the default blue color. It's #0074d9.
+3. The images are displayed at 640px wide. */
+body {
+  font-size: small;
+  color: #111;
+  font-size: 18pt;
+  font-family: Georgia , serif;
+  margin: 0 auto;
+}
+h1 {
+  font-size:        250%;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+h2 {
+  font-size:        150%;
+  font-family: sans-serif;
+}
+h3 {
+  font-size:        115%;
+  font-family: sans-serif;
+}
