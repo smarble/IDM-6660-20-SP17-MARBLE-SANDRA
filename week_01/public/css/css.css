@@ -45,5 +45,22 @@ img {
 p {
     line-height: 1.6em;
     margin-bottom: 25px;
-
+}
+a:link {
+    color: #0074d9;
+}
+blockquote {
+  width: 640px;
+  line-height: 1.6em;
+  margin-left: 0px;
+  background-color: #cccccc;
+  padding: 10px;
+}
+iframe {
+  width: 640px;
+  height: 360px;
+}
+ul {
+  line-height: 1.6em;
+  list-style-type: disc;
 }
