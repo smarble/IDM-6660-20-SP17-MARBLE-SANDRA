@@ -2,19 +2,10 @@
 
 ### Here are the rules for this assignment:
 
-1. Remember that this assignment depends upon you
-completing your second check-in this week. Before you
-start work on this assignment, make sure you have the
-work files in your week_02 folder. If the merge worked,
- they will be there.
-
 2. Using the screenshots in the ref/screenshots folder,
  you need to style the included HTML document to match
  the screenshots. There are 4 designs, spread across 3
   media queries, and you should try to do them all.
-
-3. You **MAY NOT** change the HTML or the image files
- in any way. The only file you may edit is the CSS file.
 
 4. I have included the CSS code that I developed for
 the first design, (the mobile-first, 0 to 480px design).
@@ -45,9 +36,11 @@ perfectly, but try to get as close as you possibly can.
 
 box-sizing: border-box;
 margin: 0 auto;
-*/
 
 @media screen and (max-width: 480px) {
+*/
+
+
 html {
     font-size: 18px;
     line-height: 1rem;
@@ -109,7 +102,7 @@ header {
     margin: 1rem auto 2rem;
     padding: 1rem;
     background-color: #FF851B;
-}
+  }
 
 header h1 {
     margin-bottom: 1rem;
@@ -135,6 +128,7 @@ article h2 {
     line-height: 1rem;
 }
 
+@media screen and (max-width: 479px) {
 article p span {
     display: none;
 }
@@ -152,32 +146,22 @@ article p:hover:after {
     color: #111;
     text-decoration: none;
 }
+}
 
 footer {
     margin-bottom: 3rem;
 }
-}
-
+/* BREAK BREAK BREAK BREAK BREAK BREAK BREAK BREAK */
 
 @media screen and (min-width: 480px) {
 
-  html {
-      font-size: 25px;
-      line-height: 1rem;
-      font-family: sans-serif;
-      color: #111;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-  }
+
+
 }
 
 
 @media screen and (min-width: 720px){
 
-  article p span {
-      display: block;
-  }
 
 }
 
