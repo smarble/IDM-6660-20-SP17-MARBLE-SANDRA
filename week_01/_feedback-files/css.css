@@ -1,0 +1,50 @@
+/*
+border-box
+MORE INFO https://css-tricks.com/box-sizing/ */
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.border-box, .not-border-box {
+  margin: 20px;
+  padding: 20px;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+/*
+REM VS EM
+MORE INFO https://zellwk.com/blog/rem-vs-em/ */
+
+html {
+  font-size: 24px;
+}
+
+.use-em, .use-em div {
+  margin-bottom: 20px;
+  font-size: .75em;
+}
+
+.use-rem, .use-rem div {
+  margin-bottom: 20px;
+  font-size: .75rem;
+}
+
+.four-rule-margin, .one-rule-margin {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.four-rule-margin {
+  margin-top: 20px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+
+.one-rule-margin {
+  margin: 20px 25px 30px 35px;
+}
