@@ -80,6 +80,14 @@ body>* {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 720px) {
+  body>* {
+
+      width: auto;
+      margin: 0 auto;
+  }
+}
+
 .font-scale-up-3 {
     font-size: 3.375em;
     line-height: 2rem;
@@ -109,8 +117,24 @@ header h1 {
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 720px) {
+  header h1, header h2 {
+    float: none;
+  }
+  h1, h2 {
+    float: right;
+    margin-bottom: 1rem;
+  }
+}
+
 header h2 {
     font-weight: normal;
+}
+
+@media screen and (min-width: 720px) {
+  header h2 {
+font-weight: bold;
+  }
 }
 
 article {
@@ -121,6 +145,13 @@ img.cover-img {
     width: 100%;
     max-width: 100%;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 720px) {
+  img.cover-img {
+  float: left;
+  width: 25%;
+  }
 }
 
 article h2 {
