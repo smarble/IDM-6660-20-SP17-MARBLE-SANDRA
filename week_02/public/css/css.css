@@ -20,8 +20,6 @@ perfectly, but try to get as close as you possibly can.
 
 ### Hints
 
-1. Watch the video I am including below.
-
 2. Look at the file names for the screenshots if you're
  stuck on the media queries and their widths.
 
@@ -33,7 +31,6 @@ perfectly, but try to get as close as you possibly can.
   rules that are causing you problems.
 
 5. The text gets larger in the first 2 queries
-
 
 */
 
@@ -161,30 +158,28 @@ article p span {
 
 @media screen and (min-width: 720px) {
   body>* {
-  width: auto;
-  margin: 0 auto;
+  width: 720px;
   }
 
   img.cover-img {
   float: left;
   width: 25%;
+  margin: 20px;
   }
-  header h1, header h2 {
-    float: none;
+  article h1, article h2, article p span {
+  margin-left: 300px;
   }
-  article h1, article h2 {
-  float: right;
-  margin-bottom: 1rem;
-  }
+
   header h2 {
 font-weight: bold;
   }
+
 }
 
 
 @media screen and (min-width: 1080px){
-  article p span {
-      display: none;
+  article h1, article h2, article p span {
+  display: none;
   }
   img.cover-img {
   float: none;
