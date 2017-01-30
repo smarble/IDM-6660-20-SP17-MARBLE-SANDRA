@@ -34,10 +34,7 @@ perfectly, but try to get as close as you possibly can.
 
 5. The text gets larger in the first 2 queries
 
-box-sizing: border-box;
-margin: 0 auto;
 
-@media screen and (max-width: 480px) {
 */
 
 
@@ -146,7 +143,6 @@ article p:hover:after {
 footer {
     margin-bottom: 3rem;
 }
-/* BREAK BREAK BREAK BREAK BREAK BREAK BREAK BREAK */
 
 @media screen and (max-width: 479px) {
 article p span {
@@ -160,13 +156,11 @@ article p span {
     display: none;
   }
 
-
 }
 
 
 @media screen and (min-width: 720px) {
   body>* {
-
   width: auto;
   margin: 0 auto;
   }
@@ -178,9 +172,9 @@ article p span {
   header h1, header h2 {
     float: none;
   }
-  h1, h2 {
-    float: right;
-    margin-bottom: 1rem;
+  article h1, article h2 {
+  float: right;
+  margin-bottom: 1rem;
   }
   header h2 {
 font-weight: bold;
@@ -188,7 +182,15 @@ font-weight: bold;
 }
 
 
-
 @media screen and (min-width: 1080px){
+  article p span {
+      display: none;
+  }
+  img.cover-img {
+  float: none;
+  width: 25%;
+  }
+
+
 
 }
