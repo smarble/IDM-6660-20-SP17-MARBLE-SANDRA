@@ -1,0 +1,37 @@
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+
+  #main_nav {
+    background: transparent;
+    background-image: url(images/nav-background.jpg);
+    height: 58px;
+  }
+  nav ul li {
+  	display: inline;
+    padding: 5px 30px 5px 30px;
+  }
+
+
+
+    /*
+  nav {
+      background-color: #efe5d0;
+  	margin: 10px 10px 0px 10px;
+  }
+  nav ul {
+  	margin: 0px;
+  	list-style-type: none;
+  	padding: 5px 0px 5px 0px;
+  }
+  nav ul li {
+  	display: inline;
+  	padding: 5px 10px 5px 10px;
+  }
+*/
