@@ -1,13 +1,6 @@
 
 /*
-GET RID OF FLOAT,
-SET WIDTH TO 100%
-#sausage_twins_combo_promo {
-  float: left;
-}
-.home #content div {
-    float: left;
-}
+NOTES
 */
 html {
     -webkit-box-sizing: border-box;
@@ -17,14 +10,15 @@ html {
   #logobanner {
     width: 100%;
     max-width: 100%;
+    margin-bottom: -5px;
   }
 
   #circlelogo {
     position: absolute;
-    top: 53px;
-    left: 50%;
-    width: 140px;
-    height: 140px;
+    top: 95px;
+    left: 65%;
+    width: 50px;
+    height: 50px;
     margin-left: -70px;
     margin-top: -70px;
     z-index: 100;
@@ -39,6 +33,7 @@ html {
       width: 100%;
   }
   body {
+    background-image: url(images/background-texture.jpg);
     width: 300px;
     margin: 0 auto;
     position: relative;
@@ -47,24 +42,24 @@ html {
     background: transparent;
     background-image: url(images/nav-background.jpg);
     background-repeat:  repeat-x;
-    height: 58px;
+    height: 20px;
     margin: 0px;
     padding-top: 10px;
   }
   nav ul li {
   	display: inline;
-    padding: 0px 60px;
+    padding: 0px 10px;
   }
   #home_link {
-    padding-right: 250px;
+    padding-right: 10px;
   }
 #store_promo {
   margin-top: 18px;
 }
   a {
-      color: #F5DEB3;
+      color: #999966;
       text-decoration: none;
-      font-size: 30px;
+      font-size: 15px;
   }
   img {
     max-width: 100%;
