@@ -8,12 +8,18 @@ html {
     position: absolute;
     width: 142px;
     height: 142px;
-    top: 79px;
+    top: 65px;
     left: 410px;
     z-index: 100;
   }
-  #store_promo {
-   float: right;
+  #header_and_nav {
+    display: block;
+  }
+  #sausage_twins_combo_promo {
+    float: left;
+  }
+  .home #content div {
+      float: left;
   }
   body {
     margin: 0;
@@ -23,7 +29,6 @@ html {
     background-image: url(images/nav-background.jpg);
     background-repeat:  repeat-x;
     height: 58px;
-    width: 375px;
     margin: 0px;
   }
   nav ul li {
