@@ -39,7 +39,9 @@ html {
   #home_link {
     padding-right: 250px;
   }
-
+#store_promo {
+  margin-top: 18px;
+}
   a {
       color: #F5DEB3;
       text-decoration: none;
