@@ -1,64 +1,86 @@
-
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
-  #circlelogo {
+}
+
+/*
+ADD ID TO TARGET FIRST IMAGE IN HEADER
+*/
+#logobanner {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*
+CORRECT CIRCLE LOGO POSITION FOR NEW 300PX SITE WIDTH
+SET HEIGHT AND WIDTH TO 140PX FOR EASY MATH
+*/
+#circlelogo {
     position: absolute;
-    width: 142px;
-    height: 142px;
-    top: 65px;
-    left: 410px;
+    top: 53px;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
     z-index: 100;
-  }
-  #header_and_nav {
+}
+
+#header_and_nav {
     display: block;
-  }
-  #sausage_twins_combo_promo {
+}
+
+/*
+GET RID OF FLOAT,
+SET WIDTH TO 100%
+*/
+#sausage_twins_combo_promo {
     float: left;
-  }
-  .home #content div {
-      float: left;
-  }
-  body {
-    margin: 0;
-  }
-  #main_nav {
+}
+
+.home #content div {
+    float: left;
+}
+
+/*
+ADD WIDTH TO BODY,
+CORRECT MARGIN TO CENTER BODY,
+ADD POSITION RELATIVE SO LOGO ALIGNS TO BODY NOT WINDOW
+*/
+body {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main_nav {
     background: transparent;
     background-image: url(images/nav-background.jpg);
-    background-repeat:  repeat-x;
+    background-repeat: repeat-x;
     height: 58px;
     margin: 0px;
     padding-top: 10px;
-  }
-  nav ul li {
-  	display: inline;
+}
+
+nav ul li {
+    display: inline;
     padding: 0px 60px;
-  }
-  #home_link {
+}
+
+#home_link {
     padding-right: 250px;
-  }
+}
 
-  a {
-      color: #F5DEB3;
-      text-decoration: none;
-      font-size: 30px;
-  }
+a {
+    color: #F5DEB3;
+    text-decoration: none;
+    font-size: 30px;
+}
 
-
-    /*
-  nav {
-      background-color: #efe5d0;
-  	margin: 10px 10px 0px 10px;
-  }
-  nav ul {
-  	margin: 0px;
-  	list-style-type: none;
-  	padding: 5px 0px 5px 0px;
-  }
-  nav ul li {
-  	display: inline;
-  	padding: 5px 10px 5px 10px;
-  }
+/*
+SET MAX WIDTH OF ALL IMAGES TO 100%
 */
+img {
+  max-width: 100%;
+}
