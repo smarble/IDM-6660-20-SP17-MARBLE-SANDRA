@@ -1,32 +1,47 @@
 
 /*
-Notes: The styling is looking ok, but not in "mobile" view.
-Everything falls apart in mobile view.
+GET RID OF FLOAT,
+SET WIDTH TO 100%
+#sausage_twins_combo_promo {
+  float: left;
+}
+.home #content div {
+    float: left;
+}
 */
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  #logobanner {
+    width: 100%;
+    max-width: 100%;
+  }
+
   #circlelogo {
     position: absolute;
-    width: 142px;
-    height: 142px;
-    top: 65px;
-    left: 410px;
+    top: 53px;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
     z-index: 100;
   }
   #header_and_nav {
     display: block;
   }
   #sausage_twins_combo_promo {
-    float: left;
+    width: 100%;
   }
   .home #content div {
-      float: left;
+      width: 100%;
   }
   body {
-    margin: 0;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
   }
   #main_nav {
     background: transparent;
@@ -50,4 +65,7 @@ html {
       color: #F5DEB3;
       text-decoration: none;
       font-size: 30px;
+  }
+  img {
+    max-width: 100%;
   }

@@ -1,0 +1,88 @@
+
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ADD ID TO TARGET FIRST IMAGE IN HEADER
+*/
+#logobanner {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*
+CORRECT CIRCLE LOGO POSITION FOR NEW 300PX SITE WIDTH
+SET HEIGHT AND WIDTH TO 140PX FOR EASY MATH
+*/
+#circlelogo {
+    position: absolute;
+    top: 53px;
+    left: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
+    z-index: 100;
+}
+
+#header_and_nav {
+    display: block;
+}
+
+/*
+GET RID OF FLOAT,
+SET WIDTH TO 100%
+*/
+#sausage_twins_combo_promo {
+    float: left;
+}
+
+.home #content div {
+    float: left;
+}
+
+/*
+ADD WIDTH TO BODY,
+CORRECT MARGIN TO CENTER BODY,
+ADD POSITION RELATIVE SO LOGO ALIGNS TO BODY NOT WINDOW
+*/
+body {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main_nav {
+    background: transparent;
+    background-image: url(images/nav-background.jpg);
+    background-repeat: repeat-x;
+    height: 58px;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 60px;
+}
+
+#home_link {
+    padding-right: 250px;
+}
+
+a {
+    color: #F5DEB3;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*
+SET MAX WIDTH OF ALL IMAGES TO 100%
+*/
+img {
+  max-width: 100%;
+}
