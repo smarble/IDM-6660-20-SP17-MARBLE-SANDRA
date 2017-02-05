@@ -1,4 +1,8 @@
 
+/*
+Notes: The styling is looking ok, but not in "mobile" view.
+Everything falls apart in mobile view.
+*/
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -47,20 +51,3 @@ html {
       text-decoration: none;
       font-size: 30px;
   }
-
-
-    /*
-  nav {
-      background-color: #efe5d0;
-  	margin: 10px 10px 0px 10px;
-  }
-  nav ul {
-  	margin: 0px;
-  	list-style-type: none;
-  	padding: 5px 0px 5px 0px;
-  }
-  nav ul li {
-  	display: inline;
-  	padding: 5px 10px 5px 10px;
-  }
-*/
