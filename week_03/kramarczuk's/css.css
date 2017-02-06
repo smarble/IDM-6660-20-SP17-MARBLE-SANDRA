@@ -15,7 +15,7 @@ html {
 
   #circlelogo {
     position: absolute;
-    top: 95px;
+    top: 90px;
     left: 65%;
     width: 50px;
     height: 50px;
@@ -28,6 +28,7 @@ html {
   }
   #sausage_twins_combo_promo {
     width: 100%;
+    margin-bottom: 0%;
   }
   .home #content div {
       width: 100%;
@@ -44,14 +45,18 @@ html {
     background-repeat:  repeat-x;
     height: 20px;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
   }
   nav ul li {
   	display: inline;
-    padding: 0px 10px;
   }
   #home_link {
-    padding-right: 10px;
+    padding-right: 30px;
+    padding-left: 130px;
+  }
+  #call_link {
+  padding left: 20px;
   }
 #store_promo {
   margin-top: 18px;
