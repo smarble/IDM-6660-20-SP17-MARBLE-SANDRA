@@ -16,7 +16,7 @@ html {
 
 #circlelogo {
     position: absolute;
-    top: 90px;
+    top: 110px;
     left: 65%;
     width: 50px;
     height: 50px;
@@ -36,7 +36,7 @@ html {
 
 body {
     background-image: url(images/background-texture.jpg);
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
     position: relative;
   }
@@ -54,7 +54,6 @@ body {
 nav ul li {
   	display: inline;
   }
-
 
 #call_link {
   padding-left: 210px;
