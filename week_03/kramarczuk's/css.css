@@ -64,24 +64,24 @@ nav ul li {
   padding-left: 210px;
   }
 
-#store_promo {
-  margin-top: 18px;
-}
-
 #sausage_promo {
   margin: -3px 0px;
 }
 
 a {
-      color: #999966;
-      text-decoration: none;
-      font-size: 15px;
+  color: #999966;
+  text-decoration: none;
+  font-size: 15px;
   }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
   }
 
-  #store_promo {
-    max-width: 25%;
+#store_promo {
+  max-width: 40%;
+  margin: -4px 0px;
+  }
+  #bakery_image {
+    margin: -4px 0px 0px 0px;
   }
