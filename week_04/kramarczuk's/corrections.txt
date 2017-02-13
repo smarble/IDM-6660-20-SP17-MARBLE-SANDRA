@@ -1,0 +1,44 @@
+
+Changes based upon feedback:
+
+-Removed "home" link from main navigation bar. It will be the first link in the
+ (future) menu.
+-made Kramarczuck's logo bigger and more graphic in placement. Changed the
+scale of the header logo and navigation bar for better readiblity.
+-Added a footer
+-Added contact info/address to the footer
+-lots of comments/feedback about the images, the fact that the text is in the
+images, not in the html. Comments about how the images fit together (or don't
+at all) and the sizing/spacing.
+I removed most of the images with text in them. I decided to feature one main
+image below the navigation bar to streamline the site visually. Each page of
+the site (accessible through the menu in the future) will have just one image
+in the same place, just below the navigation bar. This will ease the visual
+clutter that all the different sized/shaped images with text were making.
+-added more written copy to home page; an origin story.
+
+In the code:
+
+-fixed inconsistent indentation. Could you recommend where to find the info for 
+what is correct indentation, spacing, etc...?
+-changed id's to classes
+-Changed <br>s to <p>s. Too bad about the <br>s, they were handy.
+-using more of the semantic HTML5 tags like Header, Section, Main, Article,
+etc...
+-Bigger menu/navigation bar
+
+Feedback not acted upon:
+
+-Make a menu. I haven't yet figured out how to make the menu.
+-Social media links: haven't yet figured out how to make the social media icons.
+-call link with phone icon: haven't yet figured it out. is it the "i" element?
+
+Notes:
+
+One thing really would like to figure out how to do is to make the
+header/navigation and the footer go from edge to edge (take up the whole screen
+width), but have the content in between the header and footer be narrower. From
+day one I tried to figure this out, and burned many hours on it. I didn't ask
+for help because I was changing my over all structure a lot from day to day,
+so I thought the solution would change depending on my structure.
+Thought I'd figure it out sooner or later, but I haven't.
