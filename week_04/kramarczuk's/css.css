@@ -32,10 +32,6 @@ html {
     display: block;
     }
 
-.home #content div {
-    width: 100%;
-    }
-
 body {
     background-image: url(images/background-texture3.jpg);
     background-repeat;

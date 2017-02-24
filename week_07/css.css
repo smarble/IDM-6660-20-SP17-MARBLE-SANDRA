@@ -1,0 +1,26 @@
+/*
+body{
+   background-image: url(images/pinkcosmic_vertical.jpg);
+   width: 100%;
+   height: 300%;
+   background-repeat: repeat-y;
+}  */
+
+.mermaid_circle {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+
+.center-layout {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.background_body {
+  background-image: url(images/cosmic_pink_800.jpg);
+  background-size: cover;
+
+
+}
