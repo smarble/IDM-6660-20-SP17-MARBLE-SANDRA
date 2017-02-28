@@ -17,10 +17,26 @@ body{
   margin: 0 auto;
 }
 
-
 .background_body {
   background-image: url(images/cosmic_pink_800.jpg);
   background-size: cover;
+}
 
+h1 {
+  padding: 25% 5% 0% 10%;
+  font-size: 500%;
+  color: DarkMagenta;
+}
 
+.blurb {
+  padding: 5% 10% 20% 10%;
+  font-size: 130%;
+}
+
+.menu_icon {
+  width: 20%;
+}
+
+.footer {
+  width: 100%;
 }
