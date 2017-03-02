@@ -1,15 +1,22 @@
 /*
-body{
-   background-image: url(images/pinkcosmic_vertical.jpg);
-   width: 100%;
-   height: 300%;
-   background-repeat: repeat-y;
-}  */
+Weeki Wachee
+color: DarkMagenta;
+*/
+
+html {
+  font-family: futura, verdana, sans-serif;
+}
+
+header {
+  background-image: url(images/blackspace_horizontal.jpg);
+  width: 100%;
+  margin-bottom: 20%;
+}
 
 .mermaid_circle {
-   width: 100%;
-   height: 100%;
-   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 
 .center-layout {
@@ -26,6 +33,7 @@ h1 {
   padding: 25% 5% 0% 10%;
   font-size: 500%;
   color: DarkMagenta;
+  text-shadow: 1px 1px 1px #0001ff;
 }
 
 .blurb {
@@ -37,6 +45,20 @@ h1 {
   width: 20%;
 }
 
-.footer {
+footer {
+  background-image: url(images/blackspace_horizontal.jpg);
   width: 100%;
+  margin-bottom: -10%;
+}
+
+.footer_media_buttons {
+  list-style-type: none;
+}
+
+.mediabutton_list {
+  display: inline;
+}
+
+.media_buttons {
+  width: 30%;
 }
