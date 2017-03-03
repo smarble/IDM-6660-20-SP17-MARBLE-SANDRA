@@ -1,6 +1,56 @@
 /*
 Weeki Wachee
 color: DarkMagenta;
+Blue: 0001ff
+HOt pink: fb24a6
+lightest blue: cbeffb
+
+
+@media screen and (max-width: 479px) {
+article p span {
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 480px) {
+  article p:after {
+    display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 720px) {
+  body>* {
+  width: 720px;
+  }
+
+  img.cover-img {
+  float: left;
+  width: 25%;
+  margin: 20px;
+  }
+  article h1, article h2, article p span {
+  margin-left: 300px;
+  }
+
+  header h2 {
+font-weight: bold;
+  }
+
+}
+
+
+@media screen and (min-width: 1080px){
+  article h1, article h2, article p span {
+  display: none;
+  }
+  img.cover-img {
+  float: none;
+  width: 25%;
+  }
+
 */
 
 html {
@@ -17,6 +67,9 @@ header {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  border-style: solid;
+  border-color: #0001ff;
+  border-width: thin;
 }
 
 .center-layout {
@@ -62,3 +115,41 @@ footer {
 .media_buttons {
   width: 30%;
 }
+
+
+@media screen and (min-width: 321px) {
+header  {
+ background-size: 20% 70%;
+ margin-bottom: 50%;
+}
+}
+
+@media screen and (min-width: 720px) {
+  body>* {
+  width: 720px;
+  }
+
+  img.cover-img {
+  float: left;
+  width: 25%;
+  margin: 20px;
+  }
+  article h1, article h2, article p span {
+  margin-left: 300px;
+  }
+
+  header h2 {
+font-weight: bold;
+  }
+
+}
+
+
+@media screen and (min-width: 1080px){
+  article h1, article h2, article p span {
+  display: none;
+  }
+  img.cover-img {
+  float: none;
+  width: 25%;
+  }
