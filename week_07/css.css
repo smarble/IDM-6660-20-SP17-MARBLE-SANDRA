@@ -54,7 +54,12 @@ font-weight: bold;
 */
 
 html {
-  font-family: futura, verdana, sans-serif;
+  font-family: arial, verdana, sans-serif;
+  font-size: normal;
+}
+
+body {
+  margin: 0;
 }
 
 header {
@@ -116,40 +121,46 @@ footer {
   width: 30%;
 }
 
-
 @media screen and (min-width: 321px) {
 header  {
- background-size: 20% 70%;
- margin-bottom: 50%;
+ height: 23rem;
+ margin-bottom: -45%;
 }
+
+.menu_icon {
+  width: 10%;
 }
 
-@media screen and (min-width: 720px) {
-  body>* {
-  width: 720px;
-  }
+.mermaid_circle {
+  width: 60%;
+}
 
-  img.cover-img {
-  float: left;
-  width: 25%;
-  margin: 20px;
-  }
-  article h1, article h2, article p span {
-  margin-left: 300px;
-  }
+h1 {
+  margin-top: 2%;
+  padding: 0% 5% 0% 5%;
+  font-size: 350%;
+}
 
-  header h2 {
-font-weight: bold;
-  }
-
+.blurb {
+  margin: -10% 0% 0% 43%;
+  padding: 0% 5% 0% 5%;
 }
 
 
-@media screen and (min-width: 1080px){
-  article h1, article h2, article p span {
-  display: none;
-  }
-  img.cover-img {
-  float: none;
-  width: 25%;
-  }
+footer {
+  background-image: none;
+  width: 100%;
+  margin-bottom: -10%;
+}
+
+.footer_media_buttons {
+  list-style-type: none;
+}
+
+.mediabutton_list {
+  display: inline;
+}
+
+.media_buttons {
+  width: 5%;
+}
