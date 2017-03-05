@@ -197,7 +197,6 @@ footer {
   border-color: #0001ff;
   border-width: thin;
   text-align: center;
-  font-size: 200%;
 }
 
 .div_chelsea {
@@ -205,6 +204,7 @@ footer {
   background-position: 50% 50%;
   background-size: 100% 100%;
   margin-left: 2%;
+  font-size: 200%;
 }
 
 .div_bubbles {
@@ -213,7 +213,12 @@ footer {
   background-size: 109% 109%;
   float:right;
   margin-right: 2%;
+  font-size: 225%;
 }
-
+ h2 {
+   margin-top: 43%;
+   color: #F8F8FF;
+   text-shadow: 2px 2px 2px #000000;
+ }
 
 /* 1080 plus  1080 plus  1080 plus  1080 plus*/
