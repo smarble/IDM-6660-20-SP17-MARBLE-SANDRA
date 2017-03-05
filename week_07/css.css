@@ -89,7 +89,7 @@ header {
 
 h1 {
   padding: 25% 5% 0% 10%;
-  font-size: 500%;
+  font-size: 400%;
   color: DarkMagenta;
   text-shadow: 1px 1px 1px #0001ff;
 }
@@ -121,10 +121,20 @@ footer {
   width: 30%;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (max-width: 719px) {
+.image-cropper {
+  display: none;
+}
+
+}
+
+/* 720 plus  720 plus  720 plus  720 plus  720 plus
+720 plus  720 plus  720 plus  720 plus  720 plus
+720 plus  720 plus  720 plus  720 plus  720 plus */
+@media screen and (min-width: 720px) {
 header  {
- height: 23rem;
- margin-bottom: -45%;
+  height: 30rem;
+  margin-bottom: -40%;
 }
 
 .menu_icon {
@@ -142,14 +152,14 @@ h1 {
 }
 
 .blurb {
-  margin: -10% 0% 0% 43%;
-  padding: 0% 5% 0% 5%;
+  margin: 0% 0% 0% 43%;
+  padding: 0% 5% 10% 5%;
 }
 
 footer {
   background-image: none;
   width: 100%;
-  margin-bottom: -10%;
+  margin: 0% 0% 0% 37%;
 }
 
 .footer_media_buttons {
@@ -166,8 +176,8 @@ footer {
 
 .image-cropper {
   display: inline-block;
-  width: 225px;
-  height: 225px;
+  width: 300px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   -webkit-border-radius: 50%;
@@ -181,8 +191,19 @@ footer {
 }
 
 .bottom_images {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
+
+.div_bubbles {
+  float:right;
+  margin-right: 2%;
+}
+
+.div_chelsea {
+  margin-left: 2%;
+}
+
+/* 1080 plus  1080 plus  1080 plus  1080 plus*/
