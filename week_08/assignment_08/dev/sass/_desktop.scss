@@ -1,0 +1,89 @@
+/* Desktop*/
+
+@media screen and (max-width: 1079px) {
+ .div_kristi, .div_victoria, .div_seahorse {
+  display: none;
+ }
+ }
+
+/* 1080 plus  1080 plus  1080 plus  1080 plus
+1080 plus  1080 plus  1080 plus  1080 plus
+1080 plus  1080 plus  1080 plus  1080 plus*/
+
+@media screen and (min-width: 1080px) {
+.mermaid_circle {
+  margin: 20% 0% 2% 19%;
+}
+
+  h1 {
+  margin: 0% 0% 0% 2%;
+  padding: 0%;
+  font-size: 525%;
+}
+
+.blurb {
+  font-size: 150%
+}
+
+.h2 {
+  font-size: 100%;
+  line-height: 570%;
+}
+
+.image-cropper {
+  width: 180px;
+  height: 180px;
+}
+
+.bottom-circles1080 {
+  width: 100%
+}
+
+.bottom_images {
+  margin: 0% 1% 2% 1%;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.div_chelsea {
+  margin-left: 4%;
+}
+
+.div_bubbles {
+  float: none;
+}
+
+.div_kristi {
+  background-image: url(images/mermaid_kristi.jpg);
+}
+
+.div_victoria {
+  background-image: url(images/mermaid_victoria.jpg);
+}
+
+.div_seahorse {
+  background-image: url(images/mermaid_seahorse.jpg);
+}
+
+footer {
+  background-image: url(images/blackspace_horizontal.jpg);
+  width: 100%;
+  margin: 0%;
+}
+
+.footer_media_buttons {
+  list-style-type: none;
+}
+
+.mediabutton_list {
+  display: inline;
+}
+
+.media_buttons {
+  width: 7%;
+}
+
+.facebook_button {
+  margin-left: 37%;
+}
+}
