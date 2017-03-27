@@ -1,0 +1,39 @@
+/**/
+/*300*/
+html {
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 10%;
+  line-height: 1.5; }
+
+h1 {
+  font-family: 'Noto Serif', serif; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/*630*/
+@media screen and (min-width: 630px) {
+  body {
+    font-size: 18px;
+    line-height: 1.7; }
+
+  h1 {
+    font-size: 30px; } }
+/*1060 Test*/
+@media screen and (min-width: 1060px) {
+  body {
+    margin: 15%;
+    font-size: 20px;
+    line-height: 2; }
+
+  h1 {
+    font-size: 36px; } }
+
+/*# sourceMappingURL=css.css.map */

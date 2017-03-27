@@ -1,0 +1,22 @@
+/*300*/
+  html {
+      font-family: 'Noto Sans', sans-serif;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  body {
+    margin: 10%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    font-family: 'Noto Serif', serif;
+  }
+
+  *, *:before, *:after {
+      -webkit-box-sizing: inherit;
+      -moz-box-sizing: inherit;
+      box-sizing: inherit;
+  }
