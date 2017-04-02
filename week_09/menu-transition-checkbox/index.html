@@ -1,0 +1,41 @@
+WEEK 9
+
+<!--Notes:When linking a in a font, link the font before your css stylesheet!
+    -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!--meta viewport tag-->
+    <title>Menu Demo</title>
+    <!-- link your fonts before your css -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css" />
+  </head>
+  <body class="checkbox-toggle">
+    <header>
+      <h1>IDM 6660 Responsive Design Menu Demo</h1>
+      <nav>
+        <input class="menu-controller" type="checkbox" name="menu-controller" id="menu-controller" value="value"/>
+        <!-- The input element is making our checkbox -->
+        <label for="menu-controller">Menu Label</label>
+        <!--the label element uses an id to identify what it is affecting.
+         we want it to affect the input checkbox -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Map</a></li>
+        <ul>
+      </nav>
+    </header>
+    <section>
+      <p>This is a test</p>
+      <p>This is a test</p>
+      <p>This is a test</p>
+      <p>This is a test</p>
+    </section>
+  </body>
+</html>

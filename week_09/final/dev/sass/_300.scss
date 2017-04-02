@@ -20,3 +20,17 @@
       -moz-box-sizing: inherit;
       box-sizing: inherit;
   }
+
+  .transitions {
+    p {
+      /* transition: all 3s ease;*/
+      transition: background-color 5s ease,
+                  padding .5s ease,
+                  line-height .5s ease;
+    }
+    p:hover {
+    background-color: red;
+    padding: 20px;
+    line-height: 3em;
+  }
+  }

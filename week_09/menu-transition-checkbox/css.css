@@ -1,0 +1,23 @@
+                       WEEK 9
+
+
+.checkbox-toggle {
+}
+.menu-controller {
+display: none;
+visibility: hidden;
+}
+
+ul {
+  max-height: 0;
+  overflow: hidden;
+  /*overflow: hidden hides the li elements within the ul*/
+  transition: max-height 1s ease;
+}
+
+.menu-controller:checked ~ ul
+/*selects any ul element that is a sibling to .menu-controller*/
+{
+  max-height: 1000px;
+  /*you HAVE to use max-height for transitions, you cant just use heitght*/
+}
