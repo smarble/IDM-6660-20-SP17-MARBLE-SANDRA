@@ -1,11 +1,18 @@
+body {
+  margin: 0;
+
+}
+
 .checkbox-toggle {
 }
+
 .menu-controller {
 display: none;
 visibility: hidden;
 }
 
 ul {
+  padding: 0;
   max-height: 0;
   overflow: hidden;
   /*overflow: hidden hides the li elements within the ul*/
@@ -18,3 +25,23 @@ ul {
   max-height: 1000px;
   /*you HAVE to use max-height for transitions, you cant just use heitght*/
 }
+
+label {
+  font-size: 2em;
+  padding: 10px 0px;
+  color: green;
+  background-color: #E0FBEC;
+  display: block;
+  text-align: center;
+}
+
+nav li a{
+    color: green;
+    font-size: 1.5em;
+    background-color: #E0FBEC;
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 2px;
+    text-decoration: none;
+  }

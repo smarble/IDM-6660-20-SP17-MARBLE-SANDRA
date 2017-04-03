@@ -1,2 +1,14 @@
 /*630*/
-@media screen and (min-width:630px) {}
+@media screen and (min-width:630px) {
+  ul {
+    overflow: visible;
+  }
+
+nav{
+    display: inline;
+  }
+
+.menu-controller {
+  
+}
+    }
