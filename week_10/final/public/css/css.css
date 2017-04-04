@@ -39,9 +39,14 @@ nav li a {
 /*630*/
 @media screen and (min-width: 630px) {
   ul {
-    overflow: visible; }
+    max-height: none; }
+    ul li {
+      display: inline; }
+      ul li a {
+        display: inline; }
 
-  nav {
-    display: inline; } }
+  label {
+    display: none;
+    visibility: invisible; } }
 
 /*# sourceMappingURL=css.css.map */

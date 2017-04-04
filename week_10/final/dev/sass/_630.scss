@@ -1,14 +1,43 @@
 /*630*/
+
 @media screen and (min-width:630px) {
+
   ul {
-    overflow: visible;
-  }
+    // This rule remove the max-height: 0; rule in your _300 file.
+    // This needs to happen so that the ul can strech and have a height
+    // that fits is content. Once the max-height is turned off, you no
+    // longer need to use overflow: visible to have the content of the
+    // list displayed.
+    max-height: none;
+    // overflow: visible;
 
-nav{
-    display: inline;
-  }
+    li {
 
-.menu-controller {
-  
-}
+      // This will force the li elements to appear as inline elements
+      display: inline;
+
+      a {
+
+        // This will turn off the display:block; you have set on your nav li a
+        // elements in your _300 file.
+        display: inline;
+
+      }
+
     }
+
+  }
+
+  // You don't want nav to be inline, but rather, the li elements in
+  // the ul element.
+  // nav{
+  //   display: inline;
+  // }
+
+  label {
+    // These two rules hide the lable for input.menu-controller
+    display: none;
+    visibility: invisible;
+  }
+
+}
